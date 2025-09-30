@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandra - Welcome</title>
+    <meta name="description" content="">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        .hero-bg {
+            background: linear-gradient(135deg, #2563eb22 0%, #2563eb44 100%);
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    
+                    <span class="text-xl font-bold text-gray-900">Sandra</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#about" class="text-gray-700 hover:text-primary transition-colors">About</a>
+                    <a href="#contact" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg pt-16 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                        Welcome to <span class="text-primary">Sandra</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8">
+                        
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#contact" class="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors text-center">
+                            Get In Touch
+                        </a>
+                        <a href="tel:+1678929898" class="border border-primary text-primary px-8 py-3 rounded-lg font-semibold hover:bg-primary/10 transition-colors text-center">
+                            <i class="fas fa-phone mr-2"></i>Call Now
+                        </a>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="w-full h-64 bg-gradient-to-br from-primary/20 to-primary/40 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-building text-6xl text-primary/60"></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Features Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose Us</h2>
+                <p class="text-xl text-gray-600">Here's what makes us special</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-star text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Professional Service</h3>
+                        <p class="text-gray-600">Quality service you can trust</p>
+                    </div>
+                
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-star text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Experienced Team</h3>
+                        <p class="text-gray-600">Quality service you can trust</p>
+                    </div>
+                
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-star text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Quality Guarantee</h3>
+                        <p class="text-gray-600">Quality service you can trust</p>
+                    </div>
+                
+                    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-star text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">24/7 Support</h3>
+                        <p class="text-gray-600">Quality service you can trust</p>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Contact Us</h2>
+                <p class="text-xl text-gray-600">Get in touch with us today</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="space-y-8">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-envelope text-primary text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-1">Email</h3>
+                            <a href="mailto:sanoffgirl@gmail.com" class="text-primary hover:text-primary/80">sanoffgirl@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-phone text-primary text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
+                            <a href="tel:+1678929898" class="text-primary hover:text-primary/80">+1678929898</a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-map-marker-alt text-primary text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-900 mb-1">Address</h3>
+                            <p class="text-gray-600">Dulwich Village, London</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <form class="space-y-6" onsubmit="handleSubmit(event)">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                            <input type="text" id="name" name="name" required 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                            <input type="email" id="email" name="email" required 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" required 
+                                      class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"></textarea>
+                        </div>
+                        <button type="submit" 
+                                class="w-full bg-primary text-white py-3 px-6 rounded-lg font-semibold hover:bg-primary/90 transition-colors">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold mb-2">Sandra</h3>
+                <p class="text-gray-400"></p>
+            </div>
+            <div class="border-t border-gray-800 pt-8">
+                <p class="text-gray-400">
+                    © 2025 Sandra. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            const formData = new FormData(event.target);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const message = formData.get('message');
+            
+            // Create mailto link
+            const subject = encodeURIComponent(`Message from ${name} via Sandra website`);
+            const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+            const mailtoLink = `mailto:sanoffgirl@gmail.com?subject=${subject}&body=${body}`;
+            
+            window.location.href = mailtoLink;
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
